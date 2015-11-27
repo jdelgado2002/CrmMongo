@@ -26,19 +26,10 @@ namespace CRMMongo.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("mongodb://development:mayiyo01@192.168.0.30:27017/simles")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mongodb://username:password@192.168.0.30:27017/simles")]
         public string mongoDbConnectionString {
             get {
                 return ((string)(this["mongoDbConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("simles")]
-        public string simlesDatabase {
-            get {
-                return ((string)(this["simlesDatabase"]));
             }
         }
     }
