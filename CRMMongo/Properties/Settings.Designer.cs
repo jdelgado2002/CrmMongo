@@ -32,5 +32,14 @@ namespace CRMMongo.Properties {
                 return ((string)(this["mongoDbConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("simles")]
+        public string mongoDbName {
+            get {
+                return ((string)(this["mongoDbName"]));
+            }
+        }
     }
 }

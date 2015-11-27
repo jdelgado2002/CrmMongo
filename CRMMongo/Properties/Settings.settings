@@ -9,5 +9,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">mongodb://username:password@192.168.0.30:27017/simles</Value>
     </Setting>
+    <Setting Name="mongoDbName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">simles</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
